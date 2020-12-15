@@ -309,33 +309,7 @@ h3 {
 			font-size: 16px;
 			line-height: 1.5;
 		}
-		.text_distribution_cont
-{
-	width: 1000px;
-	height: 600px;
-	margin: 0 auto;
-	background-color: #000000;
-}
-
-		.text_block_distribution 
-		{
-			font-family: 'Roboto', sans-serif;
-			font-weight: 600;
-			color: #ffffff;
-			font-size: 20px;
-			margin: 0% auto;
-					
-		}
 		
-		.distribution_list
-		{
-			line-height: 40px;
-			line-height: 45px;	
-		}
-.text_in_block
-{
-	color: #000000;
-	}
 .mission {
 		background: url(../img/bg2.jpg) rgba(0, 0, 0, 0.3) 50%/cover no-repeat;
 	  background-blend-mode: color;
@@ -383,16 +357,56 @@ height: 100%;
 .distribution {
 	background: url(../img/bg3.jpg) rgba(0, 0, 0, 0.3) 50%/cover no-repeat;
 	background-blend-mode: color;
-  height: 1000px;
+  height: 1400px;
   width: 100%;
 padding: 100px 0 0 0;
 color: #000000;
   }
+ 
+ .dist_items_cont
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	
+	}
 
   .text_block_distribution {
-	min-width: 1300px;
+	min-width: 500px;
 	}
-	
+	.text_distribution_cont
+{
+	width: 1300px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: #000000;
+}
+.img_dist
+{
+	width: 200px;
+}
+
+		.text_block_distribution 
+		{
+			font-family: 'Roboto', sans-serif;
+			font-weight: 400;
+			color: #ffffff;
+			font-size: 18px;
+			margin: 0% auto;
+					
+		}
+		
+		.distribution_list
+		{
+			line-height: 40px;
+			line-height: 45px;	
+		}
+.text_in_block
+{
+	color: #000000;
+	}
+
+
 	.quotes 
 	{
 height: 330px;
