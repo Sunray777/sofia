@@ -1,0 +1,99 @@
+
+@media only screen and (max-width:1240px) {
+.mission_block
+{
+    width: 800px;
+    height: 800px;
+    flex-direction: column;
+    }
+
+    .left_block_misson
+    {
+    
+     height: 300px;
+     width: 800px;
+
+    }
+.right_block_mission
+{
+
+height: 550px;
+width: 800px;
+padding: 25px;
+float: left;
+
+}
+.img_mission
+{
+width: 100%;
+}
+.text_block_mission
+{
+
+font-size: 14px;
+}
+.mission_ul
+{
+font-size: 14px;
+}
+.content_right_block
+{
+	padding: 10px;
+}
+
+.text_in_block
+{
+	margin-top: -30px;
+}
+
+}
+
+
+@media only screen and (min-width:817px) {
+    .flexbox_item_m2
+  {
+          margin-left: -5%;
+         
+  }
+}
+
+@media only screen and (min-width:950px) {
+    .flexbox_item_m2
+  {
+          margin-left: -10%;
+         
+  }
+}
+
+@media only screen and (max-width:816px) {
+      .flexbox_item_m2
+    {
+            padding-top: 0px;
+           
+    }
+}
+
+@media only screen and (max-width:768px) {
+    
+}
+
+@media only screen and (max-width:518px) {
+    .menu_link 
+{
+font-size: 14px;
+}
+
+h1 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 16px;
+}
+}
+
+
+
+@media only screen and (max-width:320px) {
+    
+}
+

@@ -30,86 +30,117 @@ button{cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
-ul li{list-style: none;}
+li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
-header {
-height: 1190px;
-background: url(../img/obl.jpg) rgba(0, 0, 0, 0.7) 50%/cover no-repeat;
-background-blend-mode: color;
+@font-face {
+	font-family: 'Conv_Roboto-Medium';
+	src: url('../fonts/Roboto-Medium.eot');
+	src: local('☺'), url('../fonts/Roboto-Medium.woff') format('woff'), url('../fonts/Roboto-Medium.ttf') format('truetype'), url('../fonts/Roboto-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Roboto-Regular';
+	src: url('/.fonts/Roboto-Regular.eot');
+	src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-.logo {
-		width: 300px;
-	height: 230px;
-	margin: -100px 100px;
+.flexbox_menu {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+	overflow: hidden;
 	
-		}
-		@font-face {
-			font-family: 'Conv_Roboto-Medium';
-			src: url('../fonts/Roboto-Medium.eot');
-			src: local('☺'), url('../fonts/Roboto-Medium.woff') format('woff'), url('../fonts/Roboto-Medium.ttf') format('truetype'), url('../fonts/Roboto-Medium.svg') format('svg');
-			font-weight: 500;
-			font-style: normal;
-		}
-		@font-face {
-			font-family: 'Conv_Roboto-Regular';
-			src: url('/.fonts/Roboto-Regular.eot');
-			src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg') format('svg');
-			font-weight: normal;
-			font-style: normal;
-		}
-.menu_box 
+    
+    
+        }
+
+.flexbox_item
 {
-height: 50px;
-width: 600px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 100px;
-	}
+    width: 500px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+header
+{
+height: 1100px;
+background: url(/Sofia/img/obl.jpg) rgba(0, 0, 0, 0.5) 50%/cover no-repeat;
+ background-blend-mode: color;
+color: #000000;
+}
+
+.header_box
+{
+    height: 250px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: 45%;
+}
+
+.flexbox_item_m1
+{
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+  
+    
+        
+}
+
+.flexbox_item_m2
+{
+    width: 500px;
+    min-width: 300px;
+	height: 20px;
+	margin: 0 auto;
+	padding-top: 170px;
+	
+        
+}
+
+.logo{
+width:300px;
+text-align: center; 
+
+}
 
 .menu a {
 	text-decoration: none;
 	
 }
-.menu 
-{
-	border: 1px solid rgba(0, 0, 0, 0.0);
-	}
+
 .menu_list 
 {
+width: 100%;
+margin: 0 auto;
 display: flex;
-
-}
-
-.menu_list li 
-{
-	margin: 18px 18px 0 0;
+justify-content: space-evenly;
 
 }
 
 .menu_link 
 {
-color: #ffffff;	
-font-family: 'Conv_Roboto-Regular';
+width: 100%;
+	color: #ffffff;	
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
 font-size: 18px;
-}
-
-li:before {
-    content: "• ";
-   }
-
-.header_box {
- height: 250px;
-position: absolute;
-left: 0;
-right: 0;
 margin: 0 auto;
-text-align: center;
-top: 45%;
+
 }
 
 .send_track 
@@ -263,7 +294,7 @@ h3 {
 		padding: 30px;
     
 		}
-		.text {
+		.text_block_mission {
 			font-family: 'Conv_Roboto-Regular';
 			text-align: inherit;
 			font-weight: 400;
@@ -292,34 +323,38 @@ h3 {
 	color: #000000;
 	}
 .mission {
-	  background: url(../img/bg2.jpg) rgba(0, 0, 0, 0.3) 50%/cover no-repeat;
+		background: url(../img/bg2.jpg) rgba(0, 0, 0, 0.3) 50%/cover no-repeat;
 	  background-blend-mode: color;
-	height: 1000px;
-	padding: 100px;
+	  height: 1000px;
+	padding-top: 100px;
 color: #000000;
 	}
 
 .mission_block
 {
-margin-left: auto;
-margin-right: auto;
+display:flex;
+flex-direction: row; 
+margin: 0 auto;
 width: 1188px;
+background-color: khaki;
 }
 .left_block_misson
 {
 
 float: left;
 width: 488px;
-	  
+height: 800px;
 
 }
-
+.content_right_block
+{
+	padding: 50px;
+}
 .right_block_mission
 {
 background-color: #ffffff;
 height: 800px;
 width: 700px;
-padding: 50px;
 float: left;
 
 }
@@ -328,7 +363,7 @@ float: left;
    }
 .img_mission 
 {
-height: 800px;
+height: 100%;
 }
 
 .distribution {
