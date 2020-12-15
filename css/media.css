@@ -12,8 +12,14 @@
     
      height: 300px;
      width: 800px;
+     text-align: center;
 
     }
+.button2_container
+{
+    text-align: center;
+}
+
 .right_block_mission
 {
 
@@ -25,7 +31,8 @@ float: left;
 }
 .img_mission
 {
-width: 100%;
+height: 100%;
+
 }
 .text_block_mission
 {

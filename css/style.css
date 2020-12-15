@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Conv_Roboto-Regular';
+	font-family: 'Roboto', sans-serif;
 	src: url('/.fonts/Roboto-Regular.eot');
 	src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg') format('svg');
 	font-weight: normal;
@@ -148,7 +148,7 @@ margin: 0 auto;
 width: 300px;
 height: 50px;
 border-radius: 50px;
-font-family: 'Conv_Roboto-Regular';
+font-family: 'Roboto', sans-serif;
 font-size: 15px;
 font-weight: 500;
 top: auto;
@@ -157,10 +157,10 @@ background-color: #ffffff;
 
 .mission_ul
 {
-	font-family: 'Conv_Roboto-Regular';
+	font-family: 'Roboto', sans-serif;
 	text-align: inherit;
-	font-weight: 400;
-	font-size: 16px;
+	font-weight: 600;
+	font-size: px;
 	line-height: 1.5;
 }
  
@@ -178,7 +178,7 @@ padding: 5px;
 width: 300px;
 height: 50px;
 border-radius: 50px;
-font-family: 'Conv_Roboto-Regular';
+font-family: 'Roboto', sans-serif;
 margin: 20px 20px 0 0;
 font-size: 15px;
 font-weight: 500;
@@ -199,7 +199,7 @@ padding: 5px;
 width: 300px;
 height: 50px;
 border-radius: 50px;
-font-family: 'Conv_Roboto-Regular';
+font-family: 'Roboto', sans-serif;
 font-size: 15px;
 font-weight: 500;
 top: auto;
@@ -289,15 +289,16 @@ h2 {
 	font-weight: 500;
 }
 h3 {
-		font-family: 'Conv_Roboto-Regular';
+		font-family: 'Roboto', sans-serif;
+		font-weight: 600;
 		font-size: 25px;
 		padding: 30px;
     
 		}
 		.text_block_mission {
-			font-family: 'Conv_Roboto-Regular';
+			font-family: 'Roboto', sans-serif;
 			text-align: inherit;
-			font-weight: 400;
+			font-weight: 700;
 			font-size: 16px;
 			line-height: 1.5;
 		}
@@ -305,7 +306,8 @@ h3 {
 		.text_block_distribution 
 		{
 			padding: 150px;
-			font-family: 'Conv_Roboto-Regular';
+			font-family: 'Roboto', sans-serif;
+			font-weight: 600;
 			color: #ffffff;
 			font-size: 25px;
 			
@@ -336,7 +338,7 @@ display:flex;
 flex-direction: row; 
 margin: 0 auto;
 width: 1188px;
-background-color: khaki;
+background-color: rgba(0, 0, 0, 0.9);
 }
 .left_block_misson
 {
@@ -474,7 +476,7 @@ float: left;
 		width: 100px;
 		height: 45px;
 		font-size: 16px;
-		font-family: 'Conv_Roboto-Regular';
+		font-family: 'Roboto', sans-serif;
 		color: #ffffff;
 		margin: 10px 10px;
 		border-radius: 5px;
@@ -489,7 +491,7 @@ color: red;
 
 .form_text
  {
-font-family: 'Conv_Roboto-Regular';
+font-family: 'Roboto', sans-serif;
 font-size: 20px;
 font-weight: 500;
 padding: 15px 20px;
