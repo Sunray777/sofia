@@ -204,9 +204,15 @@ font-size: 15px;
 font-weight: 500;
 top: auto;
 background-color: #ffffff; 
-margin-top: 20px;
 
 }
+
+.button_3_cont
+{
+	height: 50px;
+	width: 1000px;
+	margin-top: 30px;
+	}
 
 .button_text3
 {
@@ -216,13 +222,14 @@ left: 0;
 right: 0;
 margin: 0px;
 padding: 5px;
+
 }
 .button3_block
 {
 	height: 50px;
-	width: 300px;
+	width: 400px;
 	margin: 0 auto;
-
+text-align: center;
 	
 }
 a {
@@ -302,17 +309,22 @@ h3 {
 			font-size: 16px;
 			line-height: 1.5;
 		}
+		.text_distribution_cont
+{
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: #000000;
+}
 
 		.text_block_distribution 
 		{
-			padding: 150px;
 			font-family: 'Roboto', sans-serif;
 			font-weight: 600;
 			color: #ffffff;
-			font-size: 25px;
-			
-			
-			
+			font-size: 20px;
+			margin: 0% auto;
+					
 		}
 		
 		.distribution_list
@@ -372,7 +384,8 @@ height: 100%;
 	background: url(../img/bg3.jpg) rgba(0, 0, 0, 0.3) 50%/cover no-repeat;
 	background-blend-mode: color;
   height: 1000px;
-  padding: 100px;
+  width: 100%;
+padding: 100px 0 0 0;
 color: #000000;
   }
 
