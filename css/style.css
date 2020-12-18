@@ -210,7 +210,7 @@ background-color: #ffffff;
 .button_3_cont
 {
 	height: 50px;
-	width: 400px;
+	width: 300px;
 	margin: 0 auto;
 	
 	}
@@ -221,14 +221,14 @@ color: #111111;
 	position: relative;
 left: 0;
 right: 0;
-margin: 0px;
+margin: 0px auto;
 padding: 5px;
 
 }
 .button3_block
 {
 	height: 50px;
-	width: 400px;
+	width: 300px;
 	margin: 0 auto;
 	margin-top: 130px;
 text-align: center;
@@ -362,12 +362,14 @@ height: 100%;
   height: 1200px;
   width: 100%;
 padding: 100px 0 0 0;
+margin: 0px auto;
 color: #000000;
   }
  
   .dist_h2
   {
 	  text-align: center;
+	  
   }
 
  .dist_items_cont
@@ -394,7 +396,7 @@ font-size: 14px;
 	}
 
   .text_block_distribution {
-	min-width: 500px;
+	min-width: 300px;
 	}
 	.text_distribution_cont
 {
@@ -413,7 +415,7 @@ font-size: 14px;
 		.text_block_distribution 
 		{
 			font-family: 'Roboto', sans-serif;
-			font-weight: 400;
+			font-weight: 300;
 			color: #ffffff;
 			font-size: 18px;
 			margin: 0% auto;

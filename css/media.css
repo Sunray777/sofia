@@ -99,12 +99,22 @@ font-size: 14px;
 {
 font-size: 14px;
 }
+.dist_items_cont
+{
+
+justify-content:none;
+
+}
 
 h1 {
     font-size: 40px;
 }
 h3 {
     font-size: 16px;
+}
+.dist_h2
+{
+font-size: 40px;    
 }
 }
 
