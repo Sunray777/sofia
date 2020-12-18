@@ -1,5 +1,5 @@
 
-@media only screen and (max-width:1240px) {
+@media only screen and (max-width:1215px) {
 .mission_block
 {
     width: 800px;
@@ -103,23 +103,67 @@ font-size: 14px;
     flex-direction: column;
     }
 
-    
-
     .left_block_misson
     {
     
      height: 300px;
      width: 400px;
-     text-align: center;
+     text-align: center;}
+     .right_block_mission
+     {
+     
+     height: 1000px;
+     width: 400px;
+     }
 
-    }
 
-.right_block_mission
-{
-
-height: 1000px;
-width: 400px;
-}
+     .flexbox_item_m1_b
+     {
+         width: 300px;
+         height: 250px;
+        
+         margin-top: 10px;
+        
+     }
+     
+         .flexbox_item_m2_b
+         {
+             width: 150px;
+             height: 150px;
+             
+             padding-top: 50px;
+             padding-right:200px;
+                 
+         }
+             
+         .menu_list_b 
+         {
+         width: 200px;
+         text-align: left;
+         display: flex;
+         flex-direction: column;
+         padding: 50px;
+         }
+         
+         .menu_link_b
+         {
+         width: 200px;
+             color: #ffffff;	
+         font-family: 'Roboto', sans-serif;
+         font-weight: 600;
+         font-size: 18px;
+         
+         line-height: 30px;
+        
+         }
+         .flexbox_item_m2_b
+         {
+     
+             margin: 0 auto;
+             padding-top: 30px;
+                 
+         }
+    
 }
 
 @media only screen and (max-width:768px) {
@@ -151,6 +195,9 @@ font-size: 40px;
 .text_in_block
 {
     font-size: 25px;    
+}
+.bottom_block {
+height: 530px;
 }
 }
 
