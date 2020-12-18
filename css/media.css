@@ -52,9 +52,23 @@ font-size: 14px;
 {
 	margin-top: -30px;
 }
+.dist_items_cont
+{
+	width: 100%;
+	
+}
+.distribution {
+	 height: 1500px;
+}
+}
+@media only screen and (min-width:950px) {
+    .flexbox_item_m2
+  {
+          margin-left: -10%;
+         
+  }
 
 }
-
 
 @media only screen and (min-width:817px) {
     .flexbox_item_m2
@@ -62,15 +76,8 @@ font-size: 14px;
           margin-left: -5%;
          
   }
-}
 
-@media only screen and (min-width:950px) {
-    .flexbox_item_m2
-  {
-          margin-left: -10%;
-         
-  }
-}
+   }
 
 @media only screen and (max-width:816px) {
       .flexbox_item_m2
@@ -78,6 +85,9 @@ font-size: 14px;
             padding-top: 0px;
            
     }
+    .distribution {
+        height: 2400px;
+      }
 }
 
 @media only screen and (max-width:768px) {
