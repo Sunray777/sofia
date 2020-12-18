@@ -29,6 +29,12 @@ padding: 25px;
 float: left;
 
 }
+
+.content_right_block
+{
+	padding: 10px;
+}
+
 .img_mission
 {
 height: 100%;
@@ -42,10 +48,6 @@ font-size: 14px;
 .mission_ul
 {
 font-size: 14px;
-}
-.content_right_block
-{
-	padding: 10px;
 }
 
 .text_in_block
@@ -88,6 +90,36 @@ font-size: 14px;
     .distribution {
         height: 2400px;
       }
+      
+      .mission
+      {
+          height: 1300px;
+      }
+      
+      .mission_block
+{
+    width: 400px;
+    height: 800px;
+    flex-direction: column;
+    }
+
+    
+
+    .left_block_misson
+    {
+    
+     height: 300px;
+     width: 400px;
+     text-align: center;
+
+    }
+
+.right_block_mission
+{
+
+height: 1000px;
+width: 400px;
+}
 }
 
 @media only screen and (max-width:768px) {
@@ -116,11 +148,58 @@ h3 {
 {
 font-size: 40px;    
 }
+.text_in_block
+{
+    font-size: 25px;    
+}
 }
 
 
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:390px) {
+    .mission
+    {
+        height: 1400px;
+    }
     
+    .mission_block
+{
+  width: 300px;
+  height: 800px;
+  flex-direction: column;
+  }
+
+  
+
+  .left_block_misson
+  {
+  
+   height: 300px;
+   width: 300px;
+   text-align: center;
+
+  }
+
+.right_block_mission
+{
+
+height: 1200px;
+width: 300px;
 }
+.send_track2 
+{
+width: 250px;
+height: 50px;
+text-align: center;
+}
+
+.right_block_mission
+{
+
+padding: 10px;
+float: left;
+
+}
+}
+
 
