@@ -51,6 +51,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-style: normal;
 }
 
+html
+{
+	scroll-behavior: smooth;
+}
+
 .flexbox_menu {
     display: flex;
     width: 100%;
@@ -369,7 +374,7 @@ color: #000000;
   .dist_h2
   {
 	  text-align: center;
-	  
+
   }
 
  .dist_items_cont
