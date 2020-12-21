@@ -483,6 +483,8 @@ float: left;
 .logo_b{
 	width:300px;
 	text-align: center; 
+	margin: 0 auto;
+        text-align: center;
 	
 	}
 
