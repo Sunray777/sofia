@@ -518,6 +518,18 @@ float: left;
 		padding-top: 155px;
 			
 	}
+
+	.adress_span
+	{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: #ffffff;
+		font-size: 18px;
+	
+	}
+
+	.adress
+	{padding-top: 155px;}
 		
 	.menu_list_b 
 	{
