@@ -70,11 +70,19 @@ html
     margin: 0 auto;
     
 }
+.popup_area
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0%;
+}
 
 header
 {
 height: 1100px;
-background: url(/Sofia/img/obl.jpg) rgba(0, 0, 0, 0.5) 50%/cover no-repeat;
+background: url(../img/obl.jpg) rgba(0, 0, 0, 0.5) 50%/cover no-repeat;
  background-blend-mode: color;
 color: #000000;
 }
@@ -157,15 +165,6 @@ margin: 0px auto;
 
 }
 
-.button_text
-{
-position: relative;
-left: 0;
-right: 0;
-padding: 5px;
-
-}
-
 .mission_ul
 {
 	font-family: 'Roboto', sans-serif;
@@ -187,16 +186,9 @@ font-size: 15px;
 font-weight: 500;
 top: auto;
 background-color: #000000; 
+color: #ffffff;
 }
-.button_text2
-{
-color: #ffffff; 
-	position: relative;
-left: 0;
-right: 0;
-margin: 0px;
-padding: 5px;
-}
+
 .send_track3 
 {
 width: 300px;
@@ -218,16 +210,6 @@ background-color: #ffffff;
 	
 	}
 
-.button_text3
-{
-color: #111111; 
-	position: relative;
-left: 0;
-right: 0;
-margin: 0px auto;
-padding: 5px;
-
-}
 .button3_block
 {
 	height: 50px;
@@ -671,6 +653,9 @@ margin: 30px 30px 30px 10px;
 	left: 0;
 	opacity: 0;
 	visibility: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transition: all 0.3s ease 0s;
 }
 .popup:target {
 	opacity: 1;
