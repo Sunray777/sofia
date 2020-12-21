@@ -153,6 +153,17 @@ font-size: 15px;
 font-weight: 500;
 top: auto;
 background-color: #ffffff; 
+margin: 0px auto;
+
+}
+
+.button_text
+{
+position: relative;
+left: 0;
+right: 0;
+padding: 5px;
+
 }
 
 .mission_ul
@@ -164,15 +175,7 @@ background-color: #ffffff;
 	line-height: 1.5;
 }
  
-.button_text
-{
-position: relative;
-left: 0;
-right: 0;
-margin: 0px;
-padding: 5px;
 
-}
 .send_track2 
 {
 width: 300px;
@@ -669,6 +672,11 @@ margin: 30px 30px 30px 10px;
 	opacity: 0;
 	visibility: hidden;
 }
+.popup:target {
+	opacity: 1;
+	visibility: visible;
+}
+
 .popup_body
 {
 	min-height: 100%;
