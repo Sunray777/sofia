@@ -41,7 +41,7 @@
             <div class="header_box">
             <h1>Дом для доброй музыки</h1>
     <h3>Дистрибуция и продвижение нравственной музыки на цифровых площадках</h3>
-    <button class="send_track"><span class="button_text">Отправить трек на прослушивание</span></button>    
+    <button class="send_track" ><span class="button_text">Отправить трек на прослушивание</span></button>    
     </div>
     </div>
     </header>
@@ -139,6 +139,39 @@
         </div>
     </div>
     </div>
+
+<!-- POPUP FORM -->
+<div id="popup" class="popup">
+<div class="popup_body">
+    <div class="popup_content">
+                <a href="" class="popup_close">X</a>
+                            <div class="form_image_left">
+                <img class="form_img" src="./img/violin.jpg" alt="violin">
+            </div>
+            <div class="form_right">
+                <p class="form_h">Отправьте ваш трек <br>на прослушивание</p>
+<form action="#" name="newForm" method="post">
+<div class="form_inputs">
+<p class="form_text1">Ваш E-mail <span class="red">*</span></p>
+<input class="form_text" type="text">
+<p class="form_text1">Прикрепите файл <span class="red">*</span></p>
+<input type="file" name="file" id="file" class="form_file" data-multiple-caption="{count} файлов выбрано" multiple/>
+<label for="file"><span>Добавить файл</span></label>
+</div>
+<div class="button_block">
+<input class="submit_button" type="submit" value="Отправить" action="#">
+</div>
+
+</form>
+</div>
+    </div>
+</div>
+</div>
+
+
+
+
+
 <Footer>
 
 <div class="bottom_block" id="contact">
@@ -167,6 +200,6 @@
     
     </div>
 </Footer>
-<script src="../js/forms.js"></script>
+<script src="./js/forms.js"></script>
 </body>
 </html>
