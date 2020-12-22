@@ -99,7 +99,36 @@ font-size: 14px;
     height: 330px;
     
     }
-
+    .dist_items_cont
+    {
+        width: 100%;
+        height: 800px;
+        padding-top: 30px;
+        
+    
+    }
+        .dist_item
+    {
+        width: 300px;
+        height: 200px;
+        margin: 20px 50px;
+        
+        }
+    
+        
+    
+      .text_block_distribution {
+        min-width: 300px;
+        width: 800px;
+        height: 1200px;
+        
+        }
+        .button3_block
+        {
+        margin-top: 80px;
+        text-align: center;
+            
+        }
 
 }
 
@@ -192,9 +221,50 @@ flex-wrap: wrap;
            
     }
     .distribution {
-        height: 2400px;
+        height: 2100px;
       }
       
+      .img_dist
+{
+	width: 300px;
+	font-size: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 700;
+	
+	
+}
+
+      .dist_items_cont
+      {
+          height: 1500px;
+          padding-top: 5px;
+          margin: auto;
+          
+               
+      }
+
+
+          .dist_item
+      {
+          width: 300px;
+          height: 200px;
+          margin: 20px 50px;
+          
+          }
+              
+      
+        .text_block_distribution {
+          
+          width: 500px;
+          height: 1900px;
+          
+          }
+          .button3_block
+          {
+          margin-top: 50px;
+                        
+          }
+
       .mission
       {
           height: 1300px;
@@ -305,6 +375,62 @@ font-size: 40px;
            padding-bottom: 25px;
                            
         }
+        .img_dist
+        {
+            width: 320px;
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 700;
+            
+            
+        }
+        .dist_h2
+        {
+            font-size: 25px;
+            line-height: 30px;
+      
+        }
+        
+              .dist_items_cont
+              {
+                  height: 1500px;
+                  padding-top: 5px;
+                  margin: auto;
+                                   
+                       
+              }
+        
+        
+                  .dist_item
+              {
+                  width: 320px;
+                  height: 200px;
+                  margin: 20px 50px;
+                                    
+                  }
+                  .dist_item_text
+	{
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+padding-top: 10px;
+	}
+                      
+                 .text_block_distribution {
+                  
+                  width: 320px;
+                  height: 1800px;
+                                    
+                  }
+                  .button3_block
+                  {
+                  margin-top: 50px;
+                                
+                  }
+.distribution
+{
+    height: 2000px;
+}
 
 }
 
