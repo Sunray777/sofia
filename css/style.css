@@ -170,7 +170,6 @@ margin: 0px auto;
 	font-family: 'Roboto', sans-serif;
 	text-align: inherit;
 	font-weight: 600;
-	font-size: px;
 	line-height: 1.5;
 }
  
@@ -531,7 +530,8 @@ float: left;
 	}
 
 	.adress
-	{padding-top: 155px;}
+	{padding-top: 155px;
+	}
 		
 	.menu_list_b 
 	{
