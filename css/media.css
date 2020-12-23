@@ -290,8 +290,66 @@ flex-wrap: wrap;
      height: 1000px;
      width: 400px;
      }
-   
+    
+        .popup_content
+     {
+             width: 320px;
+             height: 100%;
+             
+             
+     }
+     .popup_close
+     {
+ padding-right: 15px;
+ padding-top: 1px;
+     color: #ffffff;
+     }
+
+
+    .form_img
+	{
+		height: 300px;
+		margin: 10px;
+		float: left;
+    }
+    .form_text
+    {
+        width: 260px;
+    }
+    .form_right
+    {
+        height: 379px;
+        margin-top: 10px;
+        margin-left: 10px;
+        float: left;
+       
+        
+    }
+    .popup_body
+    {
+        min-height: 100%;
+        padding: 0px;
+       
+    }
+    .popup_area
+{
+	position: absolute;
+	width: 320px;
+	height: 100%;
+	top: 0;
+    left: 0%;
+    
 }
+
+    .form_h{
+  
+    margin: 5px 5px 15px 10px;
+    
+    }
+ }
+
+
+
 
 @media only screen and (max-width:768px) {
     
