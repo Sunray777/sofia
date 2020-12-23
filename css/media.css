@@ -184,8 +184,9 @@ flex-wrap: wrap;
         
     }
     .logo_b{
-        width:250px;
+        width:300px;
         text-align: center; 
+        
     }
         
         .logo_img_b
@@ -437,6 +438,44 @@ padding-top: 10px;
 
 
 @media only screen and (max-width:390px) {
+    header
+{
+height: 570px;
+}
+    
+    .header_box
+{
+    height: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: 43%;
+}
+.logo_img
+{
+    width: 200px;
+    
+}
+
+.flexbox_item_m1
+{
+    width: 300px;
+    height: 170px;
+    margin: 0 auto;
+    
+    margin-top: 20px;
+    
+        
+}
+
+.flexbox_item_m2
+{
+    width: 300px;
+    
+	padding-top: 5px;   
+}
     .mission
     {
         height: 1400px;
@@ -447,6 +486,7 @@ padding-top: 10px;
   width: 300px;
   height: 800px;
   flex-direction: column;
+  margin: auto;
   }
  
 
@@ -479,6 +519,29 @@ padding: 10px;
 float: left;
 
 }
+.distribution {
+  height: 1900px;
+}
+    .button3_block
+    {
+    margin-top: 50px;
+                  
+    }
+
+    .menu_link_b
+	{
+	
+    font-size: 14px;
+    margin: 0 auto;
+    
+    }
+    .flexbox_item_m2_b
+        {
+           width: 300px;
+           
+                           
+        }
+
 }
 
 
